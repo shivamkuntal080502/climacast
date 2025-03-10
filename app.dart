@@ -39,7 +39,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
       isLoading = true;
     });
 
-    final apiKey = '31f18df983d8df526f54935f9fc210ac'; // Replace with your OpenWeatherMap API key
+    final apiKey = ''; // Replace with your OpenWeatherMap API key
     final url =
         'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey&units=metric';
 
